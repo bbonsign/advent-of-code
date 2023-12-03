@@ -6,7 +6,7 @@ aoc 2023, 2 do
   """
 
   @doc """
-      iex> p1(AOC.IEx.example_string())
+      iex> p1(AOC.IEx.example_string(year: 2023, day: 2))
   """
   def p1(input) do
     input
@@ -21,7 +21,7 @@ aoc 2023, 2 do
   end
 
   @doc """
-      iex> p2(AOC.IEx.example_string())
+      iex> p2(AOC.IEx.example_string(year: 2023, day: 2))
   """
   def p2(input) do
     input
